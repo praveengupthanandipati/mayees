@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-straight/css/uicons-regular-straight.css");
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-black {
+  color: #282828;
+}
+
+.background-black {
+  background: #282828;
+}
+
+.font-white {
+  color: #fff;
+}
+
+.background-white {
+  background: #fff;
+}
+
+.font-red {
+  color: #aa0607;
+}
+
+.background-red {
+  background: #aa0607;
+}
+
+.font-gray {
+  color: #828282;
+}
+
+.background-gray {
+  background: #828282;
+}
+
+.font-darkprimary {
+  color: #a3001c;
+}
+
+.background-darkprimary {
+  background: #a3001c;
+}
+
+.font-primary {
+  color: #E4002B;
+}
+
+.background-primary {
+  background: #E4002B;
+}
+
+.font-lightprimary {
+  color: #ff4d5e;
+}
+
+.background-lightprimary {
+  background: #ff4d5e;
+}
+
+.font-secondary {
+  color: #9e1b32;
+}
+
+.background-secondary {
+  background: #9e1b32;
+}
+
+.font-lightsecondary {
+  color: #c94f63;
+}
+
+.background-lightsecondary {
+  background: #c94f63;
+}
+
+.font-darksecondary {
+  color: #7a0c24;
+}
+
+.background-darksecondary {
+  background: #7a0c24;
+}
+
+.font-thirdcolour {
+  color: #39AEEE;
+}
+
+.background-thirdcolour {
+  background: #39AEEE;
+}
+
+.font-lightthrdcolour {
+  color: #66c2f3;
+}
+
+.background-lightthrdcolour {
+  background: #66c2f3;
+}
+
+.font-darkbluecolour {
+  color: #188fcf;
+}
+
+.background-darkbluecolour {
+  background: #188fcf;
+}
+
+.font-lightgray {
+  color: #e7eefa;
+}
+
+.background-lightgray {
+  background: #e7eefa;
+}
+
+.font-lightgradient {
+  color: linear-gradient(270deg, #E9DEFA 0%, rgba(251, 252, 219, 0.8) 100%);
+}
+
+.background-lightgradient {
+  background: linear-gradient(270deg, #E9DEFA 0%, rgba(251, 252, 219, 0.8) 100%);
+}
+
+.font-darkblue {
+  color: #000048;
+}
+
+.background-darkblue {
+  background: #000048;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+body p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+.page-loader.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.page-loader-logo {
+  height: 42px;
+  width: auto;
+  animation: loaderPulse 1.4s ease-in-out infinite;
+}
+
+.page-loader-spinner {
+  width: 34px;
+  height: 34px;
+  border: 3px solid #f0f0f0;
+  border-top-color: #E4002B;
+  border-radius: 50%;
+  animation: loaderSpin 0.8s linear infinite;
+}/*# sourceMappingURL=style.css.map */
