@@ -1,0 +1,116 @@
+{
+  "hero_slides": [
+    { "image": "img/banner01.jpg", "eyebrow": "Timeless Elegance For", "title": "The Woman Of Grace", "subtitle": "Handcrafted sarees for every celebration.", "cta": "Explore Sarees" },
+    { "image": "img/banner02.jpg", "eyebrow": "Crafted With Love For", "title": "Every Golden Moment", "subtitle": "Bridal edits designed to make you unforgettable.", "cta": "Shop Bridal Edit" },
+    { "image": "img/banner03.jpg", "eyebrow": "Effortless Style For", "title": "Your Everyday Glow", "subtitle": "Contemporary dresses for the modern woman.", "cta": "Shop Dresses" },
+    { "image": "img/banner04.jpg", "eyebrow": "Celebrate In", "title": "Pure Radiance", "subtitle": "Festive lehengas that move with you.", "cta": "View Festive Collection" },
+    { "image": "img/banner05.jpg", "eyebrow": "Discover The Art Of", "title": "The Perfect Drape", "subtitle": "Timeless silhouettes, modern craftsmanship.", "cta": "Explore New Arrivals" }
+  ],
+
+  "categories": [
+    { "image": "img/categories/cat01.jpg", "title": "Bridal Jewellery", "text": "Statement pieces for your big day" },
+    { "image": "img/categories/cat02.jpg", "title": "Silk Sarees", "text": "Timeless drapes, modern elegance" },
+    { "image": "img/categories/cat03.jpg", "title": "Banarasi Sarees", "text": "Handwoven heritage silk" },
+    { "image": "img/categories/cat04.jpg", "title": "Designer Dresses", "text": "Contemporary silhouettes" },
+    { "image": "img/categories/cat05.jpg", "title": "Kundan Jewellery", "text": "Regal craftsmanship" },
+    { "image": "img/categories/cat06.jpg", "title": "Wedding Sarees", "text": "For your most cherished day" },
+    { "image": "img/categories/cat07.jpg", "title": "Party Wear Dresses", "text": "Turn heads at every event" },
+    { "image": "img/categories/cat08.jpg", "title": "Temple Jewellery", "text": "Traditional gold artistry" },
+    { "image": "img/categories/cat09.jpg", "title": "Festive Lehengas", "text": "Celebrate in colour" },
+    { "image": "img/categories/cat10.jpg", "title": "Indo-Western", "text": "Fusion with a modern edge" },
+    { "image": "img/categories/cat11.jpg", "title": "Necklace Sets", "text": "The finishing touch" },
+    { "image": "img/categories/cat12.jpg", "title": "Cotton Sarees", "text": "Everyday comfort, effortless style" },
+    { "image": "img/categories/cat13.jpg", "title": "Evening Gowns", "text": "Red-carpet ready" },
+    { "image": "img/categories/cat14.jpg", "title": "Earrings Edit", "text": "Sparkle from every angle" },
+    { "image": "img/categories/cat15.jpg", "title": "Printed Sarees", "text": "Playful prints, easy elegance" },
+    { "image": "img/categories/cat16.jpg", "title": "Bridal Bangles", "text": "Stack up the sparkle" }
+  ],
+
+  "featured_products": [
+    { "image": "img/categories/cat01.jpg", "name": "Kundan Bridal Necklace Set", "price_old": "4,299", "price_new": "1,499", "price_off": "-65%" },
+    { "image": "img/categories/cat02.jpg", "name": "Handloom Cotton Saree", "price_old": "1,899", "price_new": "699", "price_off": "-63%" },
+    { "image": "img/categories/cat03.jpg", "name": "Banarasi Wedding Saree", "price_old": "3,499", "price_new": "1,299", "price_off": "-63%" },
+    { "image": "img/categories/cat04.jpg", "name": "Designer Anarkali Dress", "price_old": "2,799", "price_new": "999", "price_off": "-64%" },
+    { "image": "img/categories/cat05.jpg", "name": "Temple Gold Earrings", "price_old": "1,599", "price_new": "599", "price_off": "-63%" },
+    { "image": "img/categories/cat06.jpg", "name": "Bridal Red Silk Saree", "price_old": "4,199", "price_new": "1,599", "price_off": "-62%" },
+    { "image": "img/categories/cat07.jpg", "name": "Sequin Evening Gown", "price_old": "3,299", "price_new": "1,199", "price_off": "-64%" },
+    { "image": "img/categories/cat08.jpg", "name": "Antique Silver Bangles", "price_old": "1,299", "price_new": "499", "price_off": "-62%" },
+    { "image": "img/categories/cat09.jpg", "name": "Festive Printed Saree", "price_old": "1,799", "price_new": "649", "price_off": "-64%" },
+    { "image": "img/categories/cat10.jpg", "name": "Indo-Western Fusion Dress", "price_old": "2,499", "price_new": "899", "price_off": "-64%" },
+    { "image": "img/categories/cat11.jpg", "name": "Polki Choker Necklace", "price_old": "5,499", "price_new": "1,999", "price_off": "-64%" },
+    { "image": "img/categories/cat12.jpg", "name": "Chanderi Cotton Saree", "price_old": "1,699", "price_new": "599", "price_off": "-65%" },
+    { "image": "img/categories/cat13.jpg", "name": "Ivory Wedding Gown", "price_old": "3,899", "price_new": "1,499", "price_off": "-62%" },
+    { "image": "img/categories/cat14.jpg", "name": "Pearl Drop Earrings", "price_old": "999", "price_new": "399", "price_off": "-60%" },
+    { "image": "img/categories/cat15.jpg", "name": "Cotton Summer Dress", "price_old": "1,599", "price_new": "599", "price_off": "-63%" }
+  ],
+
+  "latest_collection": [
+    { "image": "img/categories/cat07.jpg", "title": "Sarees", "text": "Timeless drapes for every occasion" },
+    { "image": "img/categories/cat06.jpg", "title": "Lehangas", "text": "Festive silhouettes with regal detailing" },
+    { "image": "img/categories/cat08.jpg", "title": "Blouses", "text": "Statement designs to elevate any saree" },
+    { "image": "img/categories/cat10.jpg", "title": "Dresses", "text": "Contemporary fits for the modern woman" }
+  ],
+
+  "offers": [
+    { "image": "img/categories/cat02.jpg", "name": "Women Silk Woven Saree With Contrast Blouse", "badge": "Save 70%", "price_new": "Rs. 1,199.00", "price_old": "Rs. 3,999.00" },
+    { "image": "img/categories/cat05.jpg", "name": "Women Kanjivaram Silk Saree With Pink Blouse", "badge": "Save 70%", "price_new": "Rs. 1,499.00", "price_old": "Rs. 4,999.00" },
+    { "image": "img/categories/cat09.jpg", "name": "Women Cotton Bodycon Casual Dress", "badge": "Save 65%", "price_new": "Rs. 699.00", "price_old": "Rs. 1,999.00" },
+    { "image": "img/categories/cat12.jpg", "name": "Women Floral Printed Off-Shoulder Dress", "badge": "Save 70%", "price_new": "Rs. 899.00", "price_old": "Rs. 2,999.00" }
+  ],
+
+  "mega_menu": [
+    {
+      "key": "dresses",
+      "label": "Dresses",
+      "columns": [
+        { "title": "Dresses", "links": ["All Dresses", "Party Wear Dresses", "Casual Dresses", "Designer Dresses", "Indo-Western", "Gowns"] },
+        { "title": "By Occasion", "links": ["Wedding", "Festive", "Office Wear", "Casual Outing"] },
+        { "title": "By Fabric", "links": ["Cotton", "Silk", "Georgette", "Chiffon"] }
+      ],
+      "features": [
+        { "variant": "a", "tag": "Featured", "title": "Shop New Arrival Dresses!", "cta": "Explore" },
+        { "variant": "b", "tag": "Featured", "title": "Shop Festive Dresses", "cta": "Shop Now" }
+      ]
+    },
+    {
+      "key": "sarees",
+      "label": "Sarees",
+      "columns": [
+        { "title": "Sarees", "links": ["All Sarees", "Silk Sarees", "Cotton Sarees", "Designer Sarees", "Printed Sarees", "Wedding Sarees"] },
+        { "title": "By Craft", "links": ["Kanjivaram", "Banarasi", "Chanderi", "Bandhani"] },
+        { "title": "By Occasion", "links": ["Bridal", "Festive", "Casual", "Party Wear"] }
+      ],
+      "features": [
+        { "variant": "c", "tag": "Featured", "title": "Shop Bridal Sarees!", "cta": "Explore" },
+        { "variant": "d", "tag": "Featured", "title": "Shop Silk Collection", "cta": "Shop Now" }
+      ]
+    },
+    {
+      "key": "jewelry",
+      "label": "Jewelry ",
+      "columns": [
+        { "title": "Jewelry ", "links": ["All Jewelry ", "Necklaces", "Earrings", "Bangles", "Rings"] },
+        { "title": "By Type", "links": ["Kundan", "Temple", "Antique", "Fashion Jewellery"] },
+        { "title": "By Occasion", "links": ["Bridal", "Festive", "Daily Wear"] }
+      ],
+      "features": [
+        { "variant": "e", "tag": "Featured", "title": "Shop Bridal Jewellery!", "cta": "Explore" },
+        { "variant": "f", "tag": "Featured", "title": "Shop Temple Collection", "cta": "Shop Now" }
+      ]
+    }
+  ],
+
+  "footer": {
+    "collections": ["Sarees", "Dresses", "Jewellery", "Bridal Collection", "Festive Collection", "Designer Sarees", "Party Wear Dresses", "New Arrivals", "All Collections"],
+    "useful_links": [
+      { "label": "Return & Exchange Policy", "href": "#" },
+      { "label": "Privacy Policy", "href": "#" },
+      { "label": "Store Locator", "href": "#" },
+      { "label": "About Us", "href": "about.html" },
+      { "label": "Contact Us", "href": "contact.html" },
+      { "label": "Careers with Mayees", "href": "#" },
+      { "label": "Blogs", "href": "#" },
+      { "label": "FAQs", "href": "#" }
+    ]
+  }
+}

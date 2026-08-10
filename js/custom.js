@@ -1,3 +1,78 @@
+// Header nav (mobile off-canvas + mega menu accordion)
+$(function () {
+  var $toggle = $('#mhToggle');
+  var $nav = $('#mhNav');
+  var $backdrop = $('#mhBackdrop');
+  if (!$toggle.length || !$nav.length) return;
+
+  function closeNav() {
+    $toggle.removeClass('is-active').attr('aria-expanded', 'false');
+    $nav.removeClass('is-active');
+    $backdrop.removeClass('is-active');
+    $('body').removeClass('mh-nav-open');
+    $nav.find('.mh-nav__item--mega').removeClass('is-open');
+  }
+
+  function openNav() {
+    $toggle.addClass('is-active').attr('aria-expanded', 'true');
+    $nav.addClass('is-active');
+    $backdrop.addClass('is-active');
+    $('body').addClass('mh-nav-open');
+  }
+
+  $toggle.on('click', function () {
+    if ($nav.hasClass('is-active')) {
+      closeNav();
+    } else {
+      openNav();
+    }
+  });
+
+  $backdrop.on('click', closeNav);
+
+  $(document).on('keyup', function (e) {
+    if (e.key === 'Escape') closeNav();
+  });
+
+  // Mega menu: accordion on mobile, hover-intent on desktop
+  $nav.on('click', '.mh-mega-trigger', function (e) {
+    if (window.innerWidth > 991) return;
+    e.preventDefault();
+    var $item = $(this).closest('.mh-nav__item--mega');
+    var isOpen = $item.hasClass('is-open');
+    $item.siblings('.mh-nav__item--mega').removeClass('is-open');
+    $item.toggleClass('is-open', !isOpen);
+  });
+
+  // Desktop hover-intent: a short close delay bridges the gap between the
+  // nav link and the mega panel so the menu doesn't flicker closed while
+  // the pointer is travelling between them.
+  var closeTimer = null;
+  $nav.on('mouseenter', '.mh-nav__item--mega', function () {
+    if (window.innerWidth <= 991) return;
+    clearTimeout(closeTimer);
+    var $item = $(this);
+    $item.siblings('.mh-nav__item--mega').removeClass('is-open');
+    $item.addClass('is-open');
+  });
+
+  $nav.on('mouseleave', '.mh-nav__item--mega', function () {
+    if (window.innerWidth <= 991) return;
+    var $item = $(this);
+    closeTimer = setTimeout(function () {
+      $item.removeClass('is-open');
+    }, 250);
+  });
+
+  $(window).on('resize', function () {
+    if (window.innerWidth > 991) {
+      closeNav();
+    } else {
+      $nav.find('.mh-nav__item--mega').removeClass('is-open');
+    }
+  });
+});
+
 // Home hero carousel
 var heroSwiper = new Swiper('.heroSwiper', {
   loop: true,
@@ -21,6 +96,49 @@ var heroSwiper = new Swiper('.heroSwiper', {
   },
   keyboard: {
     enabled: true,
+  },
+});
+
+// Categories carousel
+var categoriesSwiper = new Swiper('.categoriesSwiper', {
+  slidesPerView: 2,
+  spaceBetween: 14,
+  loop: true,
+  speed: 700,
+  autoplay: {
+    delay: 2800,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+  },
+  pagination: {
+    el: '.categories-section .swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.category-swiper-next',
+    prevEl: '.category-swiper-prev',
+  },
+  breakpoints: {
+    480: {
+      slidesPerView: 2,
+      spaceBetween: 16,
+    },
+    640: {
+      slidesPerView: 3,
+      spaceBetween: 18,
+    },
+    900: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+    },
+    1200: {
+      slidesPerView: 5,
+      spaceBetween: 22,
+    },
+    1400: {
+      slidesPerView: 6,
+      spaceBetween: 24,
+    },
   },
 });
 
@@ -361,32 +479,39 @@ $(function () {
   });
 });
 
-// Header search - autocomplete with sample product catalog
+// Header search modal - autocomplete with product catalog, auto-populated on open
 $(function () {
   var products = [
-    { name: "iPhone 15 Pro Max 256GB", category: "Mobiles" },
-    { name: "Samsung Galaxy S24 Ultra", category: "Mobiles" },
-    { name: "OnePlus 12R 5G", category: "Mobiles" },
-    { name: "Samsung 55\" Crystal 4K Smart TV", category: "Televisions" },
-    { name: "LG 65\" OLED Smart TV", category: "Televisions" },
-    { name: "Sony Bravia 43\" Full HD LED TV", category: "Televisions" },
-    { name: "LG 260L Double Door Refrigerator", category: "Refrigerators" },
-    { name: "Samsung 653L French Door Refrigerator", category: "Refrigerators" },
-    { name: "Whirlpool 1.5 Ton 5 Star Split AC", category: "Air Conditioners" },
-    { name: "Daikin 1 Ton Inverter Split AC", category: "Air Conditioners" },
-    { name: "LG 7Kg Front Load Washing Machine", category: "Washing Machines" },
-    { name: "Samsung 8Kg Top Load Washing Machine", category: "Washing Machines" },
-    { name: "Dell XPS 13 Laptop", category: "Laptops" },
-    { name: "HP Pavilion 15 Laptop", category: "Laptops" },
-    { name: "Apple MacBook Air M2", category: "Laptops" },
-    { name: "JBL Flip 6 Bluetooth Speaker", category: "Speakers" },
-    { name: "Sony SRS-XB100 Party Speaker", category: "Speakers" },
-    { name: "Kent Grand Plus Water Purifier", category: "Water Purifiers" },
-    { name: "Aquaguard Aura RO+UV Water Purifier", category: "Water Purifiers" }
+    { name: "Floral Party Wear Dress", category: "Dresses" },
+    { name: "Emerald Green Casual Dress", category: "Dresses" },
+    { name: "Designer Anarkali Dress", category: "Dresses" },
+    { name: "Indo-Western Fusion Dress", category: "Dresses" },
+    { name: "Ivory Wedding Gown", category: "Dresses" },
+    { name: "Chiffon A-Line Dress", category: "Dresses" },
+    { name: "Sequin Evening Gown", category: "Dresses" },
+    { name: "Cotton Summer Dress", category: "Dresses" },
+    { name: "Georgette Office Wear Dress", category: "Dresses" },
+    { name: "Kanjivaram Silk Saree", category: "Sarees" },
+    { name: "Banarasi Wedding Saree", category: "Sarees" },
+    { name: "Chanderi Cotton Saree", category: "Sarees" },
+    { name: "Bandhani Printed Saree", category: "Sarees" },
+    { name: "Designer Georgette Saree", category: "Sarees" },
+    { name: "Bridal Red Silk Saree", category: "Sarees" },
+    { name: "Pastel Chiffon Saree", category: "Sarees" },
+    { name: "Handloom Cotton Saree", category: "Sarees" },
+    { name: "Festive Printed Saree", category: "Sarees" },
+    { name: "Kundan Bridal Necklace Set", category: "Jewelleries" },
+    { name: "Temple Gold Earrings", category: "Jewelleries" },
+    { name: "Antique Silver Bangles", category: "Jewelleries" },
+    { name: "Fashion Statement Rings", category: "Jewelleries" },
+    { name: "Pearl Drop Earrings", category: "Jewelleries" },
+    { name: "Polki Choker Necklace", category: "Jewelleries" },
+    { name: "Meenakari Jhumka Earrings", category: "Jewelleries" }
   ];
 
   var $input = $('#headerSearchInput');
   var $box = $('#searchSuggestions');
+  var $modal = $('#searchModal');
   var activeIndex = -1;
 
   if (!$input.length || !$box.length) return;
@@ -406,7 +531,9 @@ $(function () {
     }
 
     if (!query) {
-      $box.append('<div class="suggestion-label">Popular products</div>');
+      $box.append('<div class="suggestion-label">All Products (' + list.length + ')</div>');
+    } else {
+      $box.append('<div class="suggestion-label">' + list.length + ' result' + (list.length === 1 ? '' : 's') + '</div>');
     }
 
     list.forEach(function (p) {
@@ -417,7 +544,7 @@ $(function () {
       }
       var $item = $(
         '<div class="suggestion-item">' +
-          '<i class="fi fi-rs-search"></i>' +
+          '<svg class="suggestion-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"/><path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>' +
           '<span class="item-name">' + label + '</span>' +
           '<span class="item-category">' + p.category + '</span>' +
         '</div>'
@@ -432,14 +559,14 @@ $(function () {
   function filterProducts(val) {
     var q = val.toLowerCase();
     return products.filter(function (p) {
-      return p.name.toLowerCase().indexOf(q) !== -1;
+      return p.name.toLowerCase().indexOf(q) !== -1 || p.category.toLowerCase().indexOf(q) !== -1;
     });
   }
 
   function refresh() {
     var val = $input.val().trim();
     if (!val) {
-      renderList(products.slice(0, 10), '');
+      renderList(products, '');
     } else {
       renderList(filterProducts(val), val);
     }
@@ -449,7 +576,7 @@ $(function () {
 
   $box.on('click', '.suggestion-item', function () {
     $input.val($(this).attr('data-name'));
-    $box.removeClass('active');
+    refresh();
   });
 
   $input.on('keydown', function (e) {
@@ -469,16 +596,21 @@ $(function () {
         e.preventDefault();
         $items.eq(activeIndex).trigger('click');
       }
-    } else if (e.key === 'Escape') {
-      $box.removeClass('active');
     }
   });
 
-  $(document).on('click', function (e) {
-    if (!$(e.target).closest('.search-wrap').length) {
-      $box.removeClass('active');
-    }
-  });
+  // Reset on open/close: the product list stays hidden until the user
+  // clicks into the field or starts typing (see the 'focus input' handler above).
+  if ($modal.length) {
+    $modal.on('shown.bs.modal', function () {
+      $input.val('');
+      $box.empty().removeClass('active');
+    });
+    $modal.on('hidden.bs.modal', function () {
+      $input.val('');
+      $box.empty().removeClass('active');
+    });
+  }
 });
 
 // Load download links only when user scrolls near them
