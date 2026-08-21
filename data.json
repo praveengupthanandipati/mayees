@@ -1,29 +1,29 @@
 {
   "hero_slides": [
-    { "image": "img/banner01.jpg", "eyebrow": "Timeless Elegance For", "title": "The Woman Of Grace", "subtitle": "Handcrafted sarees for every celebration.", "cta": "Explore Sarees" },
-    { "image": "img/banner02.jpg", "eyebrow": "Crafted With Love For", "title": "Every Golden Moment", "subtitle": "Bridal edits designed to make you unforgettable.", "cta": "Shop Bridal Edit" },
-    { "image": "img/banner03.jpg", "eyebrow": "Effortless Style For", "title": "Your Everyday Glow", "subtitle": "Contemporary dresses for the modern woman.", "cta": "Shop Dresses" },
-    { "image": "img/banner04.jpg", "eyebrow": "Celebrate In", "title": "Pure Radiance", "subtitle": "Festive lehengas that move with you.", "cta": "View Festive Collection" },
-    { "image": "img/banner05.jpg", "eyebrow": "Discover The Art Of", "title": "The Perfect Drape", "subtitle": "Timeless silhouettes, modern craftsmanship.", "cta": "Explore New Arrivals" }
+    { "image": "img/banner01.jpg", "eyebrow": "Timeless Elegance For", "title": "The Woman Of Grace", "subtitle": "Handcrafted sarees for every celebration.", "cta": "Explore Sarees", "category": "sarees" },
+    { "image": "img/banner02.jpg", "eyebrow": "Crafted With Love For", "title": "Every Golden Moment", "subtitle": "Bridal edits designed to make you unforgettable.", "cta": "Shop Bridal Edit", "category": "jewellery" },
+    { "image": "img/banner03.jpg", "eyebrow": "Effortless Style For", "title": "Your Everyday Glow", "subtitle": "Contemporary dresses for the modern woman.", "cta": "Shop Dresses", "category": "dresses" },
+    { "image": "img/banner04.jpg", "eyebrow": "Celebrate In", "title": "Pure Radiance", "subtitle": "Festive lehengas that move with you.", "cta": "View Festive Collection", "category": "sarees" },
+    { "image": "img/banner05.jpg", "eyebrow": "Discover The Art Of", "title": "The Perfect Drape", "subtitle": "Timeless silhouettes, modern craftsmanship.", "cta": "Explore New Arrivals", "category": "all" }
   ],
 
   "categories": [
-    { "image": "img/categories/cat01.jpg", "title": "Bridal Jewellery", "text": "Statement pieces for your big day" },
-    { "image": "img/categories/cat02.jpg", "title": "Silk Sarees", "text": "Timeless drapes, modern elegance" },
-    { "image": "img/categories/cat03.jpg", "title": "Banarasi Sarees", "text": "Handwoven heritage silk" },
-    { "image": "img/categories/cat04.jpg", "title": "Designer Dresses", "text": "Contemporary silhouettes" },
-    { "image": "img/categories/cat05.jpg", "title": "Kundan Jewellery", "text": "Regal craftsmanship" },
-    { "image": "img/categories/cat06.jpg", "title": "Wedding Sarees", "text": "For your most cherished day" },
-    { "image": "img/categories/cat07.jpg", "title": "Party Wear Dresses", "text": "Turn heads at every event" },
-    { "image": "img/categories/cat08.jpg", "title": "Temple Jewellery", "text": "Traditional gold artistry" },
-    { "image": "img/categories/cat09.jpg", "title": "Festive Lehengas", "text": "Celebrate in colour" },
-    { "image": "img/categories/cat10.jpg", "title": "Indo-Western", "text": "Fusion with a modern edge" },
-    { "image": "img/categories/cat11.jpg", "title": "Necklace Sets", "text": "The finishing touch" },
-    { "image": "img/categories/cat12.jpg", "title": "Cotton Sarees", "text": "Everyday comfort, effortless style" },
-    { "image": "img/categories/cat13.jpg", "title": "Evening Gowns", "text": "Red-carpet ready" },
-    { "image": "img/categories/cat14.jpg", "title": "Earrings Edit", "text": "Sparkle from every angle" },
-    { "image": "img/categories/cat15.jpg", "title": "Printed Sarees", "text": "Playful prints, easy elegance" },
-    { "image": "img/categories/cat16.jpg", "title": "Bridal Bangles", "text": "Stack up the sparkle" }
+    { "image": "img/categories/cat01.jpg", "title": "Bridal Jewellery", "text": "Statement pieces for your big day", "category": "jewellery" },
+    { "image": "img/categories/cat02.jpg", "title": "Silk Sarees", "text": "Timeless drapes, modern elegance", "category": "sarees" },
+    { "image": "img/categories/cat03.jpg", "title": "Banarasi Sarees", "text": "Handwoven heritage silk", "category": "sarees" },
+    { "image": "img/categories/cat04.jpg", "title": "Designer Dresses", "text": "Contemporary silhouettes", "category": "dresses" },
+    { "image": "img/categories/cat05.jpg", "title": "Kundan Jewellery", "text": "Regal craftsmanship", "category": "jewellery" },
+    { "image": "img/categories/cat06.jpg", "title": "Wedding Sarees", "text": "For your most cherished day", "category": "sarees" },
+    { "image": "img/categories/cat07.jpg", "title": "Party Wear Dresses", "text": "Turn heads at every event", "category": "dresses" },
+    { "image": "img/categories/cat08.jpg", "title": "Temple Jewellery", "text": "Traditional gold artistry", "category": "jewellery" },
+    { "image": "img/categories/cat09.jpg", "title": "Festive Lehengas", "text": "Celebrate in colour", "category": "sarees" },
+    { "image": "img/categories/cat10.jpg", "title": "Indo-Western", "text": "Fusion with a modern edge", "category": "dresses" },
+    { "image": "img/categories/cat11.jpg", "title": "Necklace Sets", "text": "The finishing touch", "category": "jewellery" },
+    { "image": "img/categories/cat12.jpg", "title": "Cotton Sarees", "text": "Everyday comfort, effortless style", "category": "sarees" },
+    { "image": "img/categories/cat13.jpg", "title": "Evening Gowns", "text": "Red-carpet ready", "category": "dresses" },
+    { "image": "img/categories/cat14.jpg", "title": "Earrings Edit", "text": "Sparkle from every angle", "category": "jewellery" },
+    { "image": "img/categories/cat15.jpg", "title": "Printed Sarees", "text": "Playful prints, easy elegance", "category": "sarees" },
+    { "image": "img/categories/cat16.jpg", "title": "Bridal Bangles", "text": "Stack up the sparkle", "category": "jewellery" }
   ],
 
   "featured_products": [
@@ -45,10 +45,10 @@
   ],
 
   "latest_collection": [
-    { "image": "img/categories/cat07.jpg", "title": "Sarees", "text": "Timeless drapes for every occasion" },
-    { "image": "img/categories/cat06.jpg", "title": "Lehangas", "text": "Festive silhouettes with regal detailing" },
-    { "image": "img/categories/cat08.jpg", "title": "Blouses", "text": "Statement designs to elevate any saree" },
-    { "image": "img/categories/cat10.jpg", "title": "Dresses", "text": "Contemporary fits for the modern woman" }
+    { "image": "img/categories/cat07.jpg", "title": "Sarees", "text": "Timeless drapes for every occasion", "category": "sarees" },
+    { "image": "img/categories/cat06.jpg", "title": "Lehangas", "text": "Festive silhouettes with regal detailing", "category": "sarees" },
+    { "image": "img/categories/cat08.jpg", "title": "Blouses", "text": "Statement designs to elevate any saree", "category": "sarees" },
+    { "image": "img/categories/cat10.jpg", "title": "Dresses", "text": "Contemporary fits for the modern woman", "category": "dresses" }
   ],
 
   "offers": [
@@ -248,12 +248,10 @@
   "footer": {
     "collections": ["Sarees", "Dresses", "Jewellery", "Bridal Collection", "Festive Collection", "Designer Sarees", "Party Wear Dresses", "New Arrivals", "All Collections"],
     "useful_links": [
-      { "label": "Return & Exchange Policy", "href": "#" },
-      { "label": "Privacy Policy", "href": "#" },
-      { "label": "Store Locator", "href": "contact.php" },
+      { "label": "Return & Exchange Policy", "href": "return-policy.php" },
+      { "label": "Privacy Policy", "href": "privacy.php" },   
       { "label": "About Us", "href": "about.php" },
-      { "label": "Contact Us", "href": "contact.php" },
-      { "label": "Careers with Mayees", "href": "#" },
+      { "label": "Contact Us", "href": "contact.php" },      
       { "label": "Blogs", "href": "blogs.php" },
       { "label": "FAQs", "href": "faq.php" }
     ]

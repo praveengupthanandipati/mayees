@@ -912,6 +912,45 @@ body.modal-open .floating-appointment {
   }
 }
 
+.back-to-top {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  color: map-get($colors, white);
+  background: map-get($colors, secondary);
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 6px 20px rgba(59, 67, 148, 0.35);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(14px);
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease, background 0.2s ease, box-shadow 0.2s ease;
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  &.is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  &:hover {
+    background: $mh-accent;
+    box-shadow: 0 10px 26px rgba(193, 30, 107, 0.35);
+  }
+}
+
 @include max(575px) {
   .floating-appointment {
     padding: 11px 18px;
@@ -924,6 +963,16 @@ body.modal-open .floating-appointment {
   .floating-whatsapp svg {
     width: 24px;
     height: 24px;
+  }
+  .back-to-top {
+    right: 16px;
+    bottom: 16px;
+    width: 42px;
+    height: 42px;
+  }
+  .back-to-top svg {
+    width: 17px;
+    height: 17px;
   }
 }
 
@@ -3244,6 +3293,44 @@ $footer-bg: darken(map-get($colors, secondary), 18%);
   font-size: 15.5px;
   line-height: 1.9;
   color: #4a4a4a;
+}
+
+.bd-body h2 {
+  margin: 40px 0 16px;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: map-get($colors, secondary);
+}
+
+.bd-body h2:first-child {
+  margin-top: 0;
+}
+
+.bd-body ul {
+  margin: 0 0 22px;
+  padding-left: 20px;
+}
+
+.bd-body li {
+  margin-bottom: 10px;
+  font-size: 15.5px;
+  line-height: 1.8;
+  color: #4a4a4a;
+}
+
+.bd-body strong {
+  color: map-get($colors, black);
+}
+
+.bd-body a {
+  color: map-get($colors, secondary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.bd-body a:hover {
+  color: $mh-accent;
 }
 
 .bd-quote {

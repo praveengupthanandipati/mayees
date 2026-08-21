@@ -304,16 +304,15 @@ $(function () {
 
 //on click move to browser top
 $(document).ready(function () {
+  var $movetop = $("#movetop");
+
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 50) {
-      $("#movetop").fadeIn();
-    } else {
-      $("#movetop").fadeOut();
-    }
+    $movetop.toggleClass("is-visible", $(this).scrollTop() > 400);
   });
-  //click event to scroll to top
-  $("#movetop").click(function () {
-    $("html, body").animate({ scrollTop: 0 }, 200);
+
+  //click event to smooth-scroll to top
+  $movetop.click(function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
   });
 });
 

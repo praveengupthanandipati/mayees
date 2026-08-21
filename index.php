@@ -1,5 +1,16 @@
 <?php
 $data = json_decode(file_get_contents(__DIR__ . '/data.json'), true);
+
+function mhCategoryUrl($category) {
+    return $category === 'all' ? 'products-list.php' : 'products-list.php?category=' . urlencode($category);
+}
+
+// Map each featured product to its index in the main catalogue so homepage
+// cards can link to the correct product-detail.php page.
+$productIndexByName = [];
+foreach ($data['products'] as $idx => $p) {
+    $productIndexByName[$p['name']] = $idx;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,7 +48,7 @@ $data = json_decode(file_get_contents(__DIR__ . '/data.json'), true);
 
     <!-- page loader -->
     <div id="load" class="page-loader">
-        <img src="img/logo.png" alt="Aman India" class="page-loader-logo">
+        <img src="img/logo.png" alt="Mayees Boutique" class="page-loader-logo">
         <span class="page-loader-spinner" aria-hidden="true"></span>
     </div>
     <!--/ page loader -->
@@ -61,7 +72,7 @@ $data = json_decode(file_get_contents(__DIR__ . '/data.json'), true);
                                 <h1 class="hero-title"><?php echo htmlspecialchars($slide['title']); ?></h1>
                                 <span class="hero-divider"></span>
                                 <p class="hero-subtitle"><?php echo htmlspecialchars($slide['subtitle']); ?></p>
-                                <a href="#" class="hero-cta"><?php echo htmlspecialchars($slide['cta']); ?></a>
+                                <a href="<?php echo htmlspecialchars(mhCategoryUrl($slide['category'])); ?>" class="hero-cta"><?php echo htmlspecialchars($slide['cta']); ?></a>
                             </div>
                         </div>
                     </div>
@@ -99,7 +110,7 @@ $data = json_decode(file_get_contents(__DIR__ . '/data.json'), true);
 
                         <?php foreach ($data['categories'] as $cat): ?>
                         <div class="swiper-slide">
-                            <a href="#" class="category-card">
+                            <a href="<?php echo htmlspecialchars(mhCategoryUrl($cat['category'])); ?>" class="category-card">
                                 <img src="<?php echo htmlspecialchars($cat['image']); ?>" alt="<?php echo htmlspecialchars($cat['title']); ?>" loading="lazy">
                                 <div class="category-card-overlay"></div>
                                 <div class="category-card-body">
@@ -138,14 +149,17 @@ $data = json_decode(file_get_contents(__DIR__ . '/data.json'), true);
                 <div class="products-grid">
 
                     <?php foreach ($data['featured_products'] as $p): ?>
+                    <?php $pid = $productIndexByName[$p['name']] ?? 0; ?>
                     <div class="product-card" data-aos="fade-up">
                         <div class="product-card-media">
                             <span class="product-badge">New</span>
-                            <img src="<?php echo htmlspecialchars($p['image']); ?>" alt="<?php echo htmlspecialchars($p['name']); ?>" loading="lazy">
-                            <button type="button" class="product-enquiry-btn">Enquiry Now</button>
+                            <a href="product-detail.php?id=<?php echo $pid; ?>">
+                                <img src="<?php echo htmlspecialchars($p['image']); ?>" alt="<?php echo htmlspecialchars($p['name']); ?>" loading="lazy">
+                            </a>
+                            <a href="product-detail.php?id=<?php echo $pid; ?>" class="product-enquiry-btn">Read More</a>
                         </div>
                         <div class="product-card-body">
-                            <h3 class="product-name"><?php echo htmlspecialchars($p['name']); ?></h3>
+                            <h3 class="product-name"><a href="product-detail.php?id=<?php echo $pid; ?>"><?php echo htmlspecialchars($p['name']); ?></a></h3>
                             <div class="product-price">
                                 <span class="price-old">&#8377;<?php echo htmlspecialchars($p['price_old']); ?></span>
                                 <span class="price-new">&#8377;<?php echo htmlspecialchars($p['price_new']); ?></span>
@@ -182,7 +196,7 @@ $data = json_decode(file_get_contents(__DIR__ . '/data.json'), true);
 
             <div class="latest-collection-grid">
                 <?php foreach ($data['latest_collection'] as $item): ?>
-                <a href="#" class="latest-collection-item">
+                <a href="<?php echo htmlspecialchars(mhCategoryUrl($item['category'])); ?>" class="latest-collection-item">
                     <img src="<?php echo htmlspecialchars($item['image']); ?>" alt="<?php echo htmlspecialchars($item['title']); ?>" loading="lazy">
                     <div class="latest-collection-overlay"></div>
                     <div class="latest-collection-body">

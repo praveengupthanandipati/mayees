@@ -138,7 +138,7 @@ $plpCanonical = 'https://mayees.com/products-list.php' . ($activeCategory !== 'a
                             <a href="product-detail.php?id=<?php echo $i; ?>">
                                 <img src="<?php echo htmlspecialchars($p['image']); ?>" alt="<?php echo htmlspecialchars($p['name']); ?>" loading="lazy" width="400" height="533">
                             </a>
-                            <a href="product-detail.php?id=<?php echo $i; ?>" class="product-enquiry-btn">View More</a>
+                            <a href="product-detail.php?id=<?php echo $i; ?>" class="product-enquiry-btn">Read More</a>
                         </div>
                         <div class="product-card-body">
                             <h3 class="product-name"><a href="product-detail.php?id=<?php echo $i; ?>"><?php echo htmlspecialchars($p['name']); ?></a></h3>
