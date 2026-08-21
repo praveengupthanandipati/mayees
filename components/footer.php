@@ -7,7 +7,7 @@
                     <h4 class="footer-col-title">Collections</h4>
                     <ul class="footer-links">
                         <?php foreach ($data['footer']['collections'] as $link): ?>
-                        <li><a href="#"><?php echo htmlspecialchars($link); ?></a></li>
+                        <li><a href="products-list.php"><?php echo htmlspecialchars($link); ?></a></li>
                         <?php endforeach; ?>
                     </ul>
 

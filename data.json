@@ -58,6 +58,39 @@
     { "image": "img/categories/cat12.jpg", "name": "Women Floral Printed Off-Shoulder Dress", "badge": "Save 70%", "price_new": "Rs. 899.00", "price_old": "Rs. 2,999.00" }
   ],
 
+  "products": [
+    { "image": "img/categories/cat01.jpg", "name": "Floral Party Wear Dress", "category": "Dresses", "price_old": "2,699", "price_new": "999", "price_off": "-63%" },
+    { "image": "img/categories/cat02.jpg", "name": "Emerald Green Casual Dress", "category": "Dresses", "price_old": "1,999", "price_new": "799", "price_off": "-60%" },
+    { "image": "img/categories/cat03.jpg", "name": "Designer Anarkali Dress", "category": "Dresses", "price_old": "2,799", "price_new": "999", "price_off": "-64%" },
+    { "image": "img/categories/cat04.jpg", "name": "Indo-Western Fusion Dress", "category": "Dresses", "price_old": "2,499", "price_new": "899", "price_off": "-64%" },
+    { "image": "img/categories/cat05.jpg", "name": "Ivory Wedding Gown", "category": "Dresses", "price_old": "3,899", "price_new": "1,499", "price_off": "-62%" },
+    { "image": "img/categories/cat06.jpg", "name": "Chiffon A-Line Dress", "category": "Dresses", "price_old": "2,199", "price_new": "849", "price_off": "-61%" },
+    { "image": "img/categories/cat07.jpg", "name": "Sequin Evening Gown", "category": "Dresses", "price_old": "3,299", "price_new": "1,199", "price_off": "-64%" },
+    { "image": "img/categories/cat08.jpg", "name": "Cotton Summer Dress", "category": "Dresses", "price_old": "1,599", "price_new": "599", "price_off": "-63%" },
+    { "image": "img/categories/cat09.jpg", "name": "Georgette Office Wear Dress", "category": "Dresses", "price_old": "1,899", "price_new": "749", "price_off": "-61%" },
+    { "image": "img/categories/cat10.jpg", "name": "Kanjivaram Silk Saree", "category": "Sarees", "price_old": "4,999", "price_new": "1,799", "price_off": "-64%" },
+    { "image": "img/categories/cat11.jpg", "name": "Banarasi Wedding Saree", "category": "Sarees", "price_old": "3,499", "price_new": "1,299", "price_off": "-63%" },
+    { "image": "img/categories/cat12.jpg", "name": "Chanderi Cotton Saree", "category": "Sarees", "price_old": "1,699", "price_new": "599", "price_off": "-65%" },
+    { "image": "img/categories/cat13.jpg", "name": "Bandhani Printed Saree", "category": "Sarees", "price_old": "2,199", "price_new": "849", "price_off": "-61%" },
+    { "image": "img/categories/cat14.jpg", "name": "Designer Georgette Saree", "category": "Sarees", "price_old": "2,499", "price_new": "949", "price_off": "-62%" },
+    { "image": "img/categories/cat15.jpg", "name": "Bridal Red Silk Saree", "category": "Sarees", "price_old": "4,199", "price_new": "1,599", "price_off": "-62%" },
+    { "image": "img/categories/cat16.jpg", "name": "Pastel Chiffon Saree", "category": "Sarees", "price_old": "1,999", "price_new": "749", "price_off": "-63%" },
+    { "image": "img/categories/cat01.jpg", "name": "Handloom Cotton Saree", "category": "Sarees", "price_old": "1,899", "price_new": "699", "price_off": "-63%" },
+    { "image": "img/categories/cat02.jpg", "name": "Festive Printed Saree", "category": "Sarees", "price_old": "1,799", "price_new": "649", "price_off": "-64%" },
+    { "image": "img/categories/cat03.jpg", "name": "Kundan Bridal Necklace Set", "category": "Jewellery", "price_old": "4,299", "price_new": "1,499", "price_off": "-65%" },
+    { "image": "img/categories/cat04.jpg", "name": "Temple Gold Earrings", "category": "Jewellery", "price_old": "1,599", "price_new": "599", "price_off": "-63%" },
+    { "image": "img/categories/cat05.jpg", "name": "Antique Silver Bangles", "category": "Jewellery", "price_old": "1,299", "price_new": "499", "price_off": "-62%" },
+    { "image": "img/categories/cat06.jpg", "name": "Fashion Statement Rings", "category": "Jewellery", "price_old": "999", "price_new": "399", "price_off": "-60%" },
+    { "image": "img/categories/cat07.jpg", "name": "Pearl Drop Earrings", "category": "Jewellery", "price_old": "999", "price_new": "399", "price_off": "-60%" },
+    { "image": "img/categories/cat08.jpg", "name": "Polki Choker Necklace", "category": "Jewellery", "price_old": "5,499", "price_new": "1,999", "price_off": "-64%" },
+    { "image": "img/categories/cat09.jpg", "name": "Meenakari Jhumka Earrings", "category": "Jewellery", "price_old": "1,499", "price_new": "549", "price_off": "-63%" },
+    { "image": "img/categories/cat10.jpg", "name": "Georgette Ruffle Party Dress", "category": "Dresses", "price_old": "2,299", "price_new": "899", "price_off": "-61%" },
+    { "image": "img/categories/cat11.jpg", "name": "Velvet Wrap Dress", "category": "Dresses", "price_old": "2,599", "price_new": "999", "price_off": "-62%" },
+    { "image": "img/categories/cat12.jpg", "name": "Organza Silk Saree", "category": "Sarees", "price_old": "3,199", "price_new": "1,199", "price_off": "-63%" },
+    { "image": "img/categories/cat13.jpg", "name": "Linen Cotton Saree", "category": "Sarees", "price_old": "1,799", "price_new": "699", "price_off": "-61%" },
+    { "image": "img/categories/cat14.jpg", "name": "Meenakari Bangles Set", "category": "Jewellery", "price_old": "1,899", "price_new": "749", "price_off": "-61%" }
+  ],
+
   "mega_menu": [
     {
       "key": "dresses",
@@ -100,17 +133,222 @@
     }
   ],
 
+  "blogs": [
+    {
+      "image": "img/banner02.jpg", "category": "Sarees", "date": "August 14, 2026", "read_time": "4 min read",
+      "title": "How To Drape A Silk Saree Like A Pro",
+      "excerpt": "From the classic Nivi style to festive pleats, master the art of the perfect saree drape with these simple, expert-approved steps.",
+      "quote": "A perfect drape starts with the right pleats &mdash; everything else follows.",
+      "content": [
+        "There&rsquo;s a reason the saree has stayed timeless for centuries &mdash; no other garment adapts so effortlessly to the woman wearing it. But that same versatility can feel intimidating if you&rsquo;re draping one for the first time, especially a silk saree with its heavier fall and richer pallu.",
+        "Start with the right blouse and petticoat fit. A well-fitted petticoat tied at your natural waist gives the pleats something to hold onto, and a blouse that sits snugly (not tight) lets the pallu drape without pulling. Tuck the plain end in first, wrap it once around your waist, and let the fall settle before you start pleating.",
+        "For the pleats, keep each fold roughly the same width &mdash; five to seven pleats is the sweet spot for most silk sarees. Tuck them in slightly left of centre so they sit naturally when you walk, then bring the pallu over your left shoulder and pin it in place with a small safety pin at the shoulder seam.",
+        "The final step is often skipped: give yourself a minute in front of the mirror to adjust the pleats&rsquo; fall and smooth the pallu. A silk saree holds its shape beautifully once it&rsquo;s set, so this small pause is what separates a good drape from a great one."
+      ]
+    },
+    {
+      "image": "img/banner03.jpg", "category": "Dresses", "date": "July 22, 2026", "read_time": "3 min read",
+      "title": "5 Indo-Western Looks To Try This Season",
+      "excerpt": "Blend traditional silhouettes with contemporary cuts &mdash; here are five easy ways to style Indo-Western pieces for every occasion.",
+      "quote": "Indo-Western dressing isn&rsquo;t about choosing a side &mdash; it&rsquo;s about letting both traditions talk to each other.",
+      "content": [
+        "Indo-Western fashion has moved well past the occasional dupatta-over-jeans combination. Today it&rsquo;s a genuine design language of its own, borrowing silhouettes, fabrics and motifs from both traditional and contemporary wardrobes.",
+        "A cape-sleeve kurta over tailored trousers is one of our favourite starting points &mdash; it keeps the ease of a kurta while giving the outfit a sharper, more structured finish. Pair it with statement earrings and you have something that works for both a day event and an evening one.",
+        "For something bolder, try a pre-draped saree gown: the drape of a saree stitched into a single, zip-up silhouette. It removes the guesswork of pleating while keeping that unmistakable saree movement, and it photographs beautifully for festive occasions.",
+        "Whatever combination you choose, let one piece do the talking. If your dress has a strong print or embellishment, keep the jewellery minimal, and vice versa &mdash; that balance is what makes Indo-Western looks feel intentional rather than mismatched."
+      ]
+    },
+    {
+      "image": "img/categories/cat05.jpg", "category": "Jewellery", "date": "June 30, 2026", "read_time": "4 min read",
+      "title": "The Timeless Appeal Of Kundan Jewellery",
+      "excerpt": "Discover why Kundan jewellery remains a bridal favourite, and how to pair it with your festive wardrobe.",
+      "quote": "Kundan doesn&rsquo;t shine like modern-cut stones &mdash; it glows, and that glow is exactly the point.",
+      "content": [
+        "Kundan jewellery traces back to the royal courts of Rajasthan and Gujarat, where artisans set uncut, polished gemstones into gold foil using a technique that has barely changed in centuries. That history is part of why a Kundan piece feels different from anything cut with modern precision tools.",
+        "What makes Kundan so versatile for brides and guests alike is its warmth. The stones are set to catch candlelight and daylight softly rather than throwing sharp glints, which is why Kundan necklaces photograph so well under the warm lighting of most Indian weddings.",
+        "A single statement Kundan necklace can anchor an entire bridal look, but it works just as well scaled down &mdash; a pair of Kundan jhumkas or a delicate maang tikka can lift a simple silk saree for a smaller celebration without overwhelming it.",
+        "Because the stones are set rather than glued, well-made Kundan jewellery can last for generations with the right care. Keep pieces away from perfume and moisture, store them separately in a soft pouch, and they&rsquo;ll hold their glow for years."
+      ]
+    },
+    {
+      "image": "img/boutique.jpg", "category": "Events", "date": "June 5, 2026", "read_time": "3 min read",
+      "title": "Behind The Scenes: Mayees At Fashion Week",
+      "excerpt": "A look inside our journey of exhibitions and fashion shows across India and the USA, and what keeps us going after 11+ years.",
+      "quote": "Every exhibition is a chance to put eleven years of craftsmanship in front of someone new.",
+      "content": [
+        "Mayees Boutique began with a single showroom and a simple idea from our founder, Mrs. Hanisha Devi: bring handloom fabrics and traditional embroidery to women who wanted them, wherever they were. Eleven years on, that idea has taken us to exhibitions and fashion shows across India, and eventually overseas.",
+        "Our first steps into the USA started small &mdash; just three cities, a handful of trunk shows, and a lot of learning about what resonates with the diaspora community. The response told us something important: the demand for authentic, well-made Indian ethnic wear travels just as far as the fabric does.",
+        "Today that early experiment has grown into a presence across 45 locations between India and the USA. Behind every show is the same team packing sarees, pressing blouses and steaming lehengas the night before doors open &mdash; the scale has changed, but the care hasn&rsquo;t.",
+        "If you&rsquo;ve visited one of our exhibitions, thank you for being part of that journey. And if you haven&rsquo;t yet, keep an eye on our Upcoming Shows page &mdash; we&rsquo;d love to meet you at the next one."
+      ]
+    },
+    {
+      "image": "img/categories/cat12.jpg", "category": "Style Guide", "date": "May 18, 2026", "read_time": "3 min read",
+      "title": "Caring For Handloom Sarees: Dos And Don'ts",
+      "excerpt": "Handloom fabrics deserve gentle care. Here&rsquo;s how to store, wash and preserve your favourite sarees for years to come.",
+      "quote": "Handloom fabric is forgiving if you&rsquo;re gentle with it, and unforgiving if you&rsquo;re not.",
+      "content": [
+        "Handloom sarees are woven thread by thread on traditional looms, which gives them a texture and durability that power-loomed fabric can&rsquo;t quite match. That same craftsmanship means they reward a little extra care at home.",
+        "Do dry clean silk and zari-bordered sarees, especially for the first two or three washes, until you know how the colours and border hold up. For cotton handloom sarees, a gentle hand wash in cold water with a mild detergent is usually safe once the saree has been worn a few times.",
+        "Don&rsquo;t wring a wet saree to remove water &mdash; twisting the fabric strains the weave and can distort the border. Instead, roll it gently in a dry towel to absorb excess moisture, then hang it in the shade to dry, never in direct sunlight, which fades colour fast.",
+        "Store your sarees folded along different lines each time you wear them, to avoid permanent crease marks, and wrap zari or embroidered pieces in muslin cloth rather than plastic, which can trap moisture and yellow the fabric over time."
+      ]
+    },
+    {
+      "image": "img/categories/cat08.jpg", "category": "Jewellery", "date": "April 27, 2026", "read_time": "4 min read",
+      "title": "Temple Jewellery: Reviving South Indian Heritage",
+      "excerpt": "Rooted in tradition and temple architecture, this jewellery style continues to inspire modern bridal edits.",
+      "quote": "Temple jewellery was never meant to be quiet &mdash; it was designed to be seen from across a courtyard.",
+      "content": [
+        "Long before it became bridal jewellery, temple jewellery was crafted for deities &mdash; offered to temples in South India as an act of devotion, and later replicated as ornaments for classical dancers performing in temple courtyards. That origin is why the motifs feel so distinctly sculptural.",
+        "Look closely at a temple jewellery piece and you&rsquo;ll usually find recurring symbols: the goddess Lakshmi, peacocks, lotus flowers and the deity Nataraja. These aren&rsquo;t decorative choices made at random &mdash; each motif carries meaning passed down through generations of goldsmiths.",
+        "Traditionally crafted in gold with rubies, emeralds and pearls, temple jewellery has found a wider audience today thanks to more accessible gold-plated versions that keep the intricate detailing without the traditional price point.",
+        "A temple jewellery choker or long haaram pairs beautifully with silk sarees in deep, rich colours &mdash; think maroon, mustard and forest green &mdash; where the gold detailing has room to stand out rather than compete with the fabric."
+      ]
+    },
+    {
+      "image": "img/categories/cat09.jpg", "category": "Bridal", "date": "April 2, 2026", "read_time": "3 min read",
+      "title": "Bridal Lehenga Trends To Watch This Season",
+      "excerpt": "From pastel palettes to statement blouses, here are the bridal lehenga trends brides are loving right now.",
+      "quote": "This season&rsquo;s brides are choosing lehengas that photograph as beautifully in motion as they do standing still.",
+      "content": [
+        "Bridal fashion moves in cycles, and this season we&rsquo;re seeing a clear shift away from very heavy, fully embellished lehengas toward pieces that balance statement embroidery with breathable, lighter fabrics &mdash; a welcome change for brides who want to dance through their own wedding without exhaustion setting in.",
+        "Pastel and dusty tones &mdash; think blush pink, sage green and champagne gold &mdash; are having a real moment alongside the traditional red, especially for daytime functions like the mehendi or haldi. Deep jewel tones are still the reigning choice for the main wedding ceremony.",
+        "Statement blouses have become just as important as the lehenga skirt itself. Cape sleeves, corset-style blouses and heavily embellished backs are giving brides a way to make a second, distinct style statement within the same outfit.",
+        "Whatever silhouette you choose, try it on with the dupatta draped the way you plan to wear it on the day &mdash; over one shoulder, both shoulders, or as a train &mdash; since that single choice changes how the whole outfit reads in photographs."
+      ]
+    },
+    {
+      "image": "img/banner05.jpg", "category": "Style Guide", "date": "March 10, 2026", "read_time": "3 min read",
+      "title": "Styling Your Saree With A Statement Blouse",
+      "excerpt": "A bold blouse can transform a simple saree into a showstopping outfit. Here&rsquo;s how to pick and pair one with confidence.",
+      "quote": "The saree sets the tone, but the blouse is where you get to have fun.",
+      "content": [
+        "For a long time, blouses were designed to disappear quietly under the pallu. That&rsquo;s changed &mdash; today&rsquo;s statement blouses are often the first thing people notice, thanks to bold necklines, contrasting fabrics and detailing that peeks out with every drape.",
+        "A high-neck, heavily embroidered blouse works beautifully with a simple, understated saree &mdash; it lets the embellishment do the talking without turning the whole outfit busy. Flip that combination for a printed or textured saree, and a plain, well-fitted blouse keeps the look balanced.",
+        "Contrast is your easiest styling tool. A black blouse under a pastel saree, or a bright colour-blocked blouse under a neutral one, instantly makes an outfit feel considered rather than accidental &mdash; and it&rsquo;s a trick that works whether you&rsquo;re dressing for a wedding or a weekday event.",
+        "If you&rsquo;re experimenting for the first time, start with sleeve length and neckline before committing to fabric or embellishment. Those two choices affect how the blouse photographs from the front and back, which matters just as much as how it looks in the mirror."
+      ]
+    }
+  ],
+
+  "upcoming_shows": [
+    { "day": "28", "month": "AUG", "year": "2026", "date_range": "August 28 &ndash; 30, 2026", "tag": "Exhibition", "featured": true, "title": "Mayees Flagship Festive Preview", "venue": "Hyderabad Convention Centre, Banjara Hills", "city": "Hyderabad", "country": "India", "time": "11:00 AM &ndash; 8:00 PM", "description": "Our biggest showcase of the season &mdash; festive sarees, bridal jewellery and the new Indo-Western edit, all under one roof." },
+    { "day": "12", "month": "SEP", "year": "2026", "date_range": "September 12 &ndash; 13, 2026", "tag": "Trunk Show", "featured": false, "title": "Bengaluru Trunk Show", "venue": "Bengaluru Trade Expo Centre, Indiranagar", "city": "Bengaluru", "country": "India", "time": "10:30 AM &ndash; 7:30 PM", "description": "A curated edit of silk sarees and statement jewellery, with our stylists on hand for one-on-one draping and pairing advice." },
+    { "day": "26", "month": "SEP", "year": "2026", "date_range": "September 26 &ndash; 27, 2026", "tag": "Exhibition", "featured": false, "title": "Mayees USA Tour: Dallas", "venue": "Dallas Design District Hall, TX", "city": "Dallas", "country": "USA", "time": "10:00 AM &ndash; 6:00 PM", "description": "Our Dallas stop brings the latest festive and bridal collections to the Texas community, with express shipping available on-site." },
+    { "day": "10", "month": "OCT", "year": "2026", "date_range": "October 10 &ndash; 11, 2026", "tag": "Exhibition", "featured": false, "title": "Silk & Sarees Showcase", "venue": "Chennai Exhibition Grounds, Nungambakkam", "city": "Chennai", "country": "India", "time": "11:00 AM &ndash; 8:00 PM", "description": "A dedicated showcase of Kanjivaram, Banarasi and handloom silk sarees, featuring limited-edition festive weaves." },
+    { "day": "24", "month": "OCT", "year": "2026", "date_range": "October 24 &ndash; 25, 2026", "tag": "Trunk Show", "featured": false, "title": "Diwali Collection Preview", "venue": "Iselin Community Hall, NJ", "city": "New Jersey", "country": "USA", "time": "11:00 AM &ndash; 6:00 PM", "description": "Get first access to our Diwali edit &mdash; festive sarees, dresses and jewellery styled for celebrations big and small." },
+    { "day": "7", "month": "NOV", "year": "2026", "date_range": "November 7 &ndash; 8, 2026", "tag": "Bridal Preview", "featured": true, "title": "Mumbai Bridal Couture Preview", "venue": "Mumbai Grand Pavilion, Bandra Kurla Complex", "city": "Mumbai", "country": "India", "time": "10:00 AM &ndash; 8:00 PM", "description": "An exclusive preview of our new bridal lehenga and Kundan jewellery lines, with personal styling appointments available." },
+    { "day": "21", "month": "NOV", "year": "2026", "date_range": "November 21 &ndash; 22, 2026", "tag": "Exhibition", "featured": false, "title": "Mayees USA Tour: Chicago", "venue": "Chicago Fashion Loft, Naperville", "city": "Chicago", "country": "USA", "time": "10:00 AM &ndash; 6:00 PM", "description": "A wedding-season showcase for the Chicago community, featuring bridal sarees, statement jewellery and made-to-fit blouses." },
+    { "day": "5", "month": "DEC", "year": "2026", "date_range": "December 5 &ndash; 6, 2026", "tag": "Exhibition", "featured": false, "title": "Winter Wedding Edit", "venue": "Delhi NCR Expo Centre, Gurugram", "city": "Delhi NCR", "country": "India", "time": "11:00 AM &ndash; 8:00 PM", "description": "Our winter wedding edit brings rich jewel-toned lehengas and layered jewellery for the North Indian wedding season." },
+    { "day": "16", "month": "JAN", "year": "2027", "date_range": "January 16 &ndash; 17, 2027", "tag": "Trunk Show", "featured": false, "title": "Mayees USA Tour: Bay Area", "venue": "Bay Area Event Hall, Santa Clara, CA", "city": "San Francisco", "country": "USA", "time": "11:00 AM &ndash; 6:00 PM", "description": "A trunk show for the Bay Area community featuring our New Year collection of sarees, dresses and temple jewellery." },
+    { "day": "30", "month": "JAN", "year": "2027", "date_range": "January 30 &ndash; 31, 2027", "tag": "Exhibition", "featured": false, "title": "Republic Day Special Showcase", "venue": "Visakhapatnam Trade Fair Grounds, MVP Colony", "city": "Visakhapatnam", "country": "India", "time": "11:00 AM &ndash; 8:00 PM", "description": "A special showcase celebrating Indian craftsmanship, with limited-edition handloom sarees and festive jewellery." }
+  ],
+
   "footer": {
     "collections": ["Sarees", "Dresses", "Jewellery", "Bridal Collection", "Festive Collection", "Designer Sarees", "Party Wear Dresses", "New Arrivals", "All Collections"],
     "useful_links": [
       { "label": "Return & Exchange Policy", "href": "#" },
       { "label": "Privacy Policy", "href": "#" },
-      { "label": "Store Locator", "href": "#" },
-      { "label": "About Us", "href": "about.html" },
-      { "label": "Contact Us", "href": "contact.html" },
+      { "label": "Store Locator", "href": "contact.php" },
+      { "label": "About Us", "href": "about.php" },
+      { "label": "Contact Us", "href": "contact.php" },
       { "label": "Careers with Mayees", "href": "#" },
-      { "label": "Blogs", "href": "#" },
-      { "label": "FAQs", "href": "#" }
+      { "label": "Blogs", "href": "blogs.php" },
+      { "label": "FAQs", "href": "faq.php" }
     ]
-  }
+  },
+
+  "faqs": [
+    {
+      "category": "Orders & Payment",
+      "items": [
+        { "q": "How do I place an order?", "a": "Browse our Sarees, Dresses or Jewellery collections, tap &ldquo;View More&rdquo; on any product, then use the enquiry option or WhatsApp to confirm your order with our styling team &mdash; we&rsquo;ll help finalise size, stitching and delivery." },
+        { "q": "What payment methods do you accept?", "a": "We accept UPI, major debit/credit cards and net banking online. For orders placed in person at our boutique or at an exhibition, cash and card payments are also accepted." },
+        { "q": "Can I cancel or modify my order after placing it?", "a": "Yes &mdash; message us on WhatsApp within 24 hours of placing your order and our team will help you modify or cancel it before it ships." },
+        { "q": "Do I need to create an account to order?", "a": "No account is needed. Browse our collections and confirm your order directly with our team over WhatsApp or email." },
+        { "q": "Is Cash on Delivery available?", "a": "COD is available on select pin codes for orders placed through WhatsApp &mdash; we&rsquo;ll confirm availability for your location at the time of enquiry." },
+        { "q": "Will I receive an order confirmation?", "a": "Yes, you&rsquo;ll receive a confirmation message on WhatsApp or email once your order and payment are confirmed." },
+        { "q": "Can I place a bulk or wholesale order?", "a": "Yes &mdash; message us with your requirement and we&rsquo;ll handle bulk enquiries for weddings, events and retailers separately from our regular catalogue." },
+        { "q": "Do you offer gift wrapping?", "a": "Yes, complimentary gift wrapping is available on request for festive and bridal orders &mdash; just mention it at checkout." },
+        { "q": "Can I request a custom design or colour?", "a": "For select sarees and dresses, our styling team can advise on customisation possibilities. Ask about it when you send your enquiry." },
+        { "q": "How do I know if an item is in stock?", "a": "Product pages reflect live availability. If a piece is sold out, message us and we&rsquo;ll let you know about restocks or suggest a similar style." }
+      ]
+    },
+    {
+      "category": "Shipping & Delivery",
+      "items": [
+        { "q": "Do you ship across India?", "a": "Yes, we ship pan-India. Delivery typically takes 4&ndash;7 business days depending on your location." },
+        { "q": "Do you ship internationally?", "a": "We currently ship to the USA, alongside our regular exhibitions there. International delivery takes 10&ndash;15 business days." },
+        { "q": "How can I track my order?", "a": "Once your order ships, we&rsquo;ll send you a tracking link over WhatsApp and email so you can follow it every step of the way." },
+        { "q": "What are the shipping charges?", "a": "Shipping within India is free above a minimum order value; charges for smaller orders and international shipping are shared with you at the time of enquiry." },
+        { "q": "How long does it take to process an order before it ships?", "a": "Orders are processed within 1&ndash;2 business days, except made-to-order or stitched pieces, which may take a little longer." },
+        { "q": "Do you ship to all pin codes in India?", "a": "We ship to most serviceable pin codes across India. If yours isn&rsquo;t covered, we&rsquo;ll let you know at the time of enquiry and suggest alternatives." },
+        { "q": "Can I change my delivery address after ordering?", "a": "Yes, as long as the order hasn&rsquo;t shipped yet. Message us on WhatsApp as soon as possible with the updated address." },
+        { "q": "What happens if I miss my delivery?", "a": "The courier will typically attempt redelivery. You can also use the tracking link to coordinate a preferred delivery slot directly with them." },
+        { "q": "Do you offer express or priority shipping?", "a": "Express delivery is available in select cities for an additional charge &mdash; ask about it when you place your order." },
+        { "q": "Is my package insured during transit?", "a": "Yes, all shipments are handled through trusted courier partners, and any transit damage is covered under our exchange policy." }
+      ]
+    },
+    {
+      "category": "Returns & Exchange",
+      "items": [
+        { "q": "What is your return and exchange policy?", "a": "We accept exchanges within 7 days of delivery for unworn, unwashed items with original tags intact. Custom-stitched blouses and made-to-order pieces are not eligible for exchange." },
+        { "q": "How do I request an exchange?", "a": "Message us on WhatsApp or email info@mayees.com with your order details and reason for exchange, and we&rsquo;ll guide you through the process." },
+        { "q": "Do you offer refunds?", "a": "We primarily offer exchanges or store credit. Refunds are considered case-by-case for items that arrive damaged or defective." },
+        { "q": "Who pays for return shipping?", "a": "For damaged or incorrect items, we cover return shipping. For size or preference exchanges, the return shipping cost is borne by the customer." },
+        { "q": "How long does an exchange take once approved?", "a": "Once we receive the returned item, a replacement or store credit is processed within 3&ndash;5 business days." },
+        { "q": "Can I exchange an item for a completely different product?", "a": "Yes &mdash; exchanges can be for the same item in a different size, or store credit toward another product of your choice." },
+        { "q": "What if I received a damaged or wrong item?", "a": "Message us with photos within 48 hours of delivery and we&rsquo;ll arrange a free replacement or refund." },
+        { "q": "Are sale or discounted items eligible for exchange?", "a": "Sale items are generally final sale unless damaged or defective &mdash; check the product page for specific terms." },
+        { "q": "Is jewellery eligible for return?", "a": "Jewellery can be exchanged within 7 days if unused and in original packaging. For hygiene reasons, pierced items like earrings cannot be returned once worn." },
+        { "q": "How will I receive my store credit?", "a": "Store credit is issued as a code you can use toward your next order, valid for 6 months from the date of issue." }
+      ]
+    },
+    {
+      "category": "Sizing & Fit",
+      "items": [
+        { "q": "How do I choose the right dress size?", "a": "Our dresses run true to size across XS&ndash;XXL. If you&rsquo;re between sizes, we recommend sizing up, or message us your measurements for a personalised recommendation." },
+        { "q": "Do sarees come with a stitched blouse?", "a": "Sarees come with an unstitched matching blouse piece. Let us know your blouse measurements at the time of enquiry if you&rsquo;d like us to arrange stitching." },
+        { "q": "Can I get a custom fit or alteration?", "a": "Yes, we offer basic alteration support on select pieces &mdash; just mention it when you place your order." },
+        { "q": "Do you have a size chart?", "a": "Yes, every dress product page includes detailed body measurements for each size &mdash; check it before ordering to find your best fit." },
+        { "q": "What if my size is out of stock?", "a": "Message us and we can check upcoming restock dates, or suggest a similar style available in your size." },
+        { "q": "How do I measure myself for blouse stitching?", "a": "We&rsquo;ll send you a simple measurement guide over WhatsApp covering bust, waist, shoulder and sleeve length." },
+        { "q": "Do jewellery pieces come in adjustable sizes?", "a": "Most necklaces and bangles come with adjustable closures; specific bangle sizes are noted on each product page." },
+        { "q": "What if the item doesn&rsquo;t fit after stitching?", "a": "Minor alteration support is available &mdash; message us with photos and we&rsquo;ll advise the best fix." },
+        { "q": "Are your lehengas available in plus sizes?", "a": "Select bridal and festive lehengas are available in extended sizes &mdash; ask us about current availability for a specific style." },
+        { "q": "Can I get a fitting done at your store?", "a": "Yes, visit our Gachibowli boutique for in-person fitting and styling assistance during store hours." }
+      ]
+    },
+    {
+      "category": "Sarees, Jewellery & Care",
+      "items": [
+        { "q": "How should I care for my silk saree?", "a": "We recommend dry cleaning silk and zari-bordered sarees, especially for the first few washes. See our Mayees Journal blog for a full saree care guide." },
+        { "q": "Is your jewellery real gold or plated?", "a": "Our jewellery is crafted with gold-plated alloy and traditional detailing &mdash; designed to capture the look of fine jewellery while staying accessible for everyday festive wear." },
+        { "q": "How do I keep my jewellery from tarnishing?", "a": "Store pieces in a dry pouch away from perfume and moisture, and avoid contact with water for the longest-lasting shine." },
+        { "q": "What fabrics do your sarees use?", "a": "Our sarees feature blended silk, Kanjivaram silk, Banarasi weaves, cotton and Chanderi fabrics, depending on the collection." },
+        { "q": "How do I remove wrinkles from a saree without ironing?", "a": "Hang it in a steamy bathroom for a few minutes, or use a handheld steamer on a low setting for delicate zari work." },
+        { "q": "Can I wash my dresses at home?", "a": "Most dresses are gentle-machine or hand washable in cold water &mdash; always check the wash care label on the product page first." },
+        { "q": "What is temple jewellery made of?", "a": "Traditional temple jewellery is crafted in gold with rubies, emeralds and pearls; our pieces are gold-plated alloy designed with the same intricate detailing." },
+        { "q": "How do I store my jewellery to keep it looking new?", "a": "Keep pieces in individual pouches away from direct sunlight, moisture and perfume, and store necklaces flat to avoid tangling." },
+        { "q": "Will the embroidery or embellishments fall off with wear?", "a": "Our pieces are crafted with secure stitching and finishing, but we recommend gentle handling and avoiding snagging on rough surfaces." },
+        { "q": "Do you provide styling advice for pairing jewellery with outfits?", "a": "Yes &mdash; message us a photo of your outfit and our styling team will suggest jewellery pairings, or check our Mayees Journal blog for styling guides." }
+      ]
+    },
+    {
+      "category": "Store Visits & Exhibitions",
+      "items": [
+        { "q": "Where is your store located?", "a": "Our boutique is in Gachibowli, Hyderabad. Visit our Contact page for the full address and a map." },
+        { "q": "What are your store timings?", "a": "We&rsquo;re open Monday&ndash;Saturday, 10am&ndash;7pm. We&rsquo;re closed on Sundays." },
+        { "q": "Do you exhibit outside Hyderabad?", "a": "Yes &mdash; we regularly host trunk shows and exhibitions across India and the USA. Check our Upcoming Shows page for the latest schedule and RSVP details." },
+        { "q": "Do I need an appointment to visit the store?", "a": "Walk-ins are always welcome, though booking a slot via WhatsApp helps us arrange personalised styling assistance for your visit." },
+        { "q": "Can I try on outfits before buying at the store?", "a": "Yes, our boutique has fitting rooms and our team is happy to help you try on and style pieces in person." },
+        { "q": "How do I find out about upcoming exhibitions in my city?", "a": "Check our Upcoming Shows page, or follow us on Instagram and Facebook for announcements." },
+        { "q": "Can I place an order at an exhibition and have it shipped home?", "a": "Yes, our team at every show can take your order and arrange shipping directly to your address." },
+        { "q": "Do you offer parking at your Hyderabad store?", "a": "Yes, parking is available near our Diamond Hills Lane location in Gachibowli." },
+        { "q": "Can I RSVP for an upcoming show in advance?", "a": "Yes &mdash; use the &ldquo;RSVP On WhatsApp&rdquo; button on any show listing on our Upcoming Shows page." },
+        { "q": "Is the full catalogue available to see at exhibitions?", "a": "Exhibitions feature a curated edit of our latest collection; the full catalogue is always available to browse online." }
+      ]
+    }
+  ]
 }

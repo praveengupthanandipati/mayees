@@ -401,15 +401,26 @@ var swiper = new Swiper(".swiper-speakers", {
   },
 });
 
-document.onreadystatechange = function () {
-  var state = document.readyState;
-  if (state == "complete") {
+(function () {
+  function hidePageLoader() {
     setTimeout(function () {
       var loader = document.getElementById("load");
       if (loader) loader.classList.add("is-hidden");
     }, 500);
   }
-};
+  // If the document already finished loading by the time this script runs
+  // (common on fast/cached loads), "complete" has already fired and
+  // onreadystatechange would never trigger — hide the loader right away.
+  if (document.readyState === "complete") {
+    hidePageLoader();
+  } else {
+    document.onreadystatechange = function () {
+      if (document.readyState === "complete") {
+        hidePageLoader();
+      }
+    };
+  }
+})();
 
 
 // Mobile category drawer (off-canvas)

@@ -31,11 +31,7 @@ $data = json_decode(file_get_contents(__DIR__ . '/data.json'), true);
 
     <meta name="theme-color" content="#c11e6b" />
     <link rel="icon" type="image/png" sizes="32x32" href="img/fav.png" />
-     <!-- styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/swiper.min.css" />
-    <link rel="stylesheet" href="css/aos.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <?php include __DIR__ . '/components/styles.php'; ?>
 </head>
 <body>
 
@@ -162,7 +158,7 @@ $data = json_decode(file_get_contents(__DIR__ . '/data.json'), true);
                 </div>
 
                 <div class="products-view-all">
-                    <a href="#" class="btn-view-all">View All Products</a>
+                    <a href="products-list.php" class="btn-view-all">View All Products</a>
                 </div>
             </div>
          </section>
@@ -224,7 +220,7 @@ $data = json_decode(file_get_contents(__DIR__ . '/data.json'), true);
                         </span>
                         <h2 class="section-title about-intro-title">Our Story</h2>
                         <p class="about-intro-text">Mayees Boutique Pvt. Ltd. has been serving the fashion industry from 11 years and still counting. Mayees Boutique was started by a young Entrepreneur Mrs. Hanisha Devi. For promoting the Mayees brand and expanding the reachability of brand, Mayees Boutique has started organising the various exhibitions and fashion shows in India. We have also organised our events in USA with 3 places in early stage and tasted the success of happening it in 45 different locations of USA. We are known for our luxurious, contemporary style that reflects traditional Indian colours, Handloom fabrics and embroidery. We are proud to announce our visibility and credibility of Indian fashion cultures to the 45 different places in USA and India.</p>
-                        <a href="about.html" class="btn-view-all about-intro-btn">Read More</a>
+                        <a href="about.php" class="btn-view-all about-intro-btn">Read More</a>
                     </div>
 
                 </div>
@@ -263,7 +259,7 @@ $data = json_decode(file_get_contents(__DIR__ . '/data.json'), true);
                     </div>
 
                     <div class="offer-view-all">
-                        <a href="#" class="btn-view-all">View All</a>
+                        <a href="products-list.php" class="btn-view-all">View All</a>
                     </div>
                 </div>
             </section>
@@ -309,15 +305,7 @@ $data = json_decode(file_get_contents(__DIR__ . '/data.json'), true);
     </div>
     <!--/ search modal -->
 
-     <!-- script files-->
-      <!--[if lte IE 9]>
-      <script src="js/ie.lteIE9.js"></script>
-    <![endif]-->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/swiper.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/custom.js"></script>
+    <?php include __DIR__ . '/components/scripts.php'; ?>
     <script>
         var offerSwiper = new Swiper(".mySwiper-offer", {
             slidesPerView: 2,
